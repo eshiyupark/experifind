@@ -2,3 +2,33 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.navbar {
+  display: flex;
+  height: 50px;
+  padding: 20px;
+  box-shadow: 0 4px 4px -4px rgba(174, 174, 174, 0.555);
+}
+
+.navbar-logo {
+  max-width: 85px;
+}
+
+.hero-content {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.hero-img {
+  width: 40%;
+}
+
+.hero-text {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
