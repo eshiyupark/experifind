@@ -1,5 +1,5 @@
 import React from 'react'
-import ExperifindLogo from '../assets/experifind-logo.png'
+import ExperifindLogo from '/images/experifind-logo.png'
 
 export default function Navbar() {
   return (

@@ -9,7 +9,14 @@ export default function App() {
     <>
       <Navbar />
       <Hero />
-      <Card />
+      <Card
+        img = "katie-zaferes.png"
+        rating = "5.0"
+        reviewCount = {6}
+        country = "USA"
+        title = "Swimming lessons with Katie"
+        price = {136}
+      />
     </>
   )
 }
