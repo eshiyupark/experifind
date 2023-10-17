@@ -9,6 +9,7 @@ import data from './data.js'
 export default function App() {
   const cardElements = data.map((item) =>
     <Card
+      key = {item.id}
       coverImg = {item.coverImg}
       rating = {item.stats.rating}
       reviewCount = {item.stats.reviewCount}
