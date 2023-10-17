@@ -1,1 +1,1 @@
-An experience/event finder web application built using Vite + React. 
+Basic static event finder web application built using the ReactJS library. 
